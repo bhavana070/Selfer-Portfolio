@@ -211,6 +211,7 @@ B. Helpers
     }
 }
 
+
 .ts-fadeInRight {
     animation-name: ts-fadeInRight;
 }
@@ -274,6 +275,16 @@ B. Helpers
 .ts-align__vertical {
     display: flex;
     align-items: center;
+}
+.ts-carousel-blockquote .owl-item.active figure,
+.ts-carousel-blockquote .owl-item.active p,
+.ts-carousel-blockquote .owl-item.active .blockquote-footer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ts-carousel-blockquote .owl-item.active p {
+    transition-delay: .1s;
 }
 
 /*-------------------------------------------
