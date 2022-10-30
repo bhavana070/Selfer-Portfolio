@@ -178,6 +178,10 @@ B. Helpers
 .ts-fadeInDown {
     animation-name: ts-fadeInDown;
 }
+.ts-align__vertical {
+    display: flex;
+    align-items: center;
+}
 
 /* Fade In Left */
 
