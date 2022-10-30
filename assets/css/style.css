@@ -125,7 +125,15 @@ h5, .ts-h5 {
 h6, .ts-h6 {
     font-size: 1rem;
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 /* NEW */
 
 /***********************************************************************************************************************
