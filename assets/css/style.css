@@ -113,7 +113,15 @@ h3, .ts-h3 {
     font-size: 1.25rem;
     margin-bottom: 1.5625rem;
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 h4, .ts-h4 {
     margin-bottom: 1.875rem;
 }
