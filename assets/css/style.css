@@ -108,7 +108,15 @@ h1, .ts-h1 {
 h2, .ts-h2 {
     font-size: 1.5rem;
 }
+.wrapper {
+    overflow-x: hidden;
+}
 
+.boxed .wrapper {
+    background-color: #ffffff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 h3, .ts-h3 {
     font-size: 1.25rem;
     margin-bottom: 1.5625rem;
